@@ -8,21 +8,21 @@ book:
     - index.md
     - part: "cell"
       chapters: 
-        - PBMC分离和冻存.md
+        - PBMCsIsolationFreezing.md
         
         
     - part: "protein"
       chapters:
-        - WB及Co-IP.md
+        - WB+Co-IP.md
         - ELISA.md
     
     
     - part: "DNA"
       chapters:
-        - 质粒DNA的提取.md
+        - plasmidDNApurification.md
         - PCR.md
-        - ReverseTranscription-PCR.md
-        - real-time_Quantitative-PCR.md
+        - real-time_ReverseTranscription-PCR.md
+
 
  
 

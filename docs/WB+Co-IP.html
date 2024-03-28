@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>实验方法 - 1&nbsp; PBMC分离和冻存</title>
+<title>实验方法 - 2&nbsp; # WB及Co-IP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./WB及Co-IP.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./ELISA.html" rel="next">
+<link href="./PBMCsIsolationFreezing.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PBMC分离和冻存.html">cell</a></li><li class="breadcrumb-item"><a href="./PBMC分离和冻存.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./WB+Co-IP.html">protein</a></li><li class="breadcrumb-item"><a href="./WB+Co-IP.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">\# WB及Co-IP</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./PBMC分离和冻存.html" class="sidebar-item-text sidebar-link active">
+  <a href="./PBMCsIsolationFreezing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span></a>
   </div>
 </li>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./WB及Co-IP.html" class="sidebar-item-text sidebar-link">
+  <a href="./WB+Co-IP.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"># WB及Co-IP</span></span></a>
   </div>
 </li>
@@ -158,8 +158,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./质粒DNA的提取.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">质粒DNA的提取</span></span></a>
+  <a href="./plasmidDNApurification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">质粒DNA纯化</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -170,14 +170,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ReverseTranscription-PCR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">反转录PCR</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./real-time_Quantitative-PCR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">实时荧光PCR</span></span></a>
+  <a href="./real-time_ReverseTranscription-PCR.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">实时逆转录荧光定量PCR</span></span></a>
   </div>
 </li>
       </ul>
@@ -192,12 +186,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#试剂和仪器" id="toc-试剂和仪器" class="nav-link active" data-scroll-target="#试剂和仪器"><span class="header-section-number">1.1</span> 试剂和仪器</a>
+  <li><a href="#试剂和仪器" id="toc-试剂和仪器" class="nav-link active" data-scroll-target="#试剂和仪器"><span class="header-section-number">2.1</span> 试剂和仪器</a>
   <ul class="collapse">
-  <li><a href="#试剂" id="toc-试剂" class="nav-link" data-scroll-target="#试剂"><span class="header-section-number">1.1.1</span> 试剂</a></li>
-  <li><a href="#仪器" id="toc-仪器" class="nav-link" data-scroll-target="#仪器"><span class="header-section-number">1.1.2</span> 仪器</a></li>
+  <li><a href="#试剂" id="toc-试剂" class="nav-link" data-scroll-target="#试剂"><span class="header-section-number">2.1.1</span> 试剂</a></li>
   </ul></li>
-  <li><a href="#步骤" id="toc-步骤" class="nav-link" data-scroll-target="#步骤"><span class="header-section-number">1.2</span> 步骤</a></li>
+  <li><a href="#步骤" id="toc-步骤" class="nav-link" data-scroll-target="#步骤"><span class="header-section-number">2.2</span> 步骤</a></li>
   </ul>
 </nav>
     </div>
@@ -206,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"># WB及Co-IP</span></h1>
 </div>
 
 
@@ -221,54 +214,98 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<hr>
-<p><a href="https://doi.org/10.1007/7651_2014_99">Peripheral Blood Mononuclear Cells: Isolation, Freezing, Thawing, and Culture</a></p>
-<p><strong>外周血单个核细胞</strong> Peripheral Blood Mononuclear Cells，包括淋巴细胞（Lymphocyte）、单核细胞（Monocyte）、树突状细胞（DC）和其他少量细胞</p>
-<p><img src="attachments/pbmc_proportion.bmp" class="img-fluid"></p>
-<section id="试剂和仪器" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="试剂和仪器"><span class="header-section-number">1.1</span> 试剂和仪器</h2>
-<section id="试剂" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="试剂"><span class="header-section-number">1.1.1</span> 试剂</h3>
+<section id="试剂和仪器" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="试剂和仪器"><span class="header-section-number">2.1</span> 试剂和仪器</h2>
+<section id="试剂" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="试剂"><span class="header-section-number">2.1.1</span> 试剂</h3>
 <ol type="1">
-<li>1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS</li>
-<li>Ficoll Histopaque</li>
-<li>二甲亚砜（DMSO）</li>
-<li>血清白蛋白（BSA）</li>
-<li>10%胎牛血清（FBS）</li>
-<li>Freshly collected heparinised blood 新鲜采集的肝素化血液</li>
-<li>Ficoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。</li>
-<li>细胞冻存液：FBS中加入10%DMSO</li>
+<li>PBS</li>
+<li>高效RIPA裂解液</li>
+<li>WB及Co-Ip裂解液</li>
+<li>==BCA法：A液，B液==</li>
+<li>5 × loading buffer</li>
+<li>电泳缓冲液</li>
+<li>转膜缓冲液:700ml <span class="math inline">\(ddH_2O\)</span> : 200ml 甲醇 : 100ml 10×转膜液</li>
+<li>封闭液</li>
+<li>1×TBST</li>
+<li>一抗</li>
+<li>二抗</li>
+<li>一抗稀释液</li>
+<li>二抗稀释液</li>
+<li>==显影液：A液，B液== ### 仪器</li>
+<li>恒温摇床</li>
+<li>冷冻离心机</li>
+<li>96孔酶标板</li>
 </ol>
 </section>
-<section id="仪器" class="level3" data-number="1.1.2">
-<h3 data-number="1.1.2" class="anchored" data-anchor-id="仪器"><span class="header-section-number">1.1.2</span> 仪器</h3>
-<ul>
-<li>Heparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶</li>
-<li>Centrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管</li>
-<li>Pipette gun移液枪和1ml枪头</li>
-</ul>
 </section>
-</section>
-<section id="步骤" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="步骤"><span class="header-section-number">1.2</span> 步骤</h2>
+<section id="步骤" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="步骤"><span class="header-section-number">2.2</span> 步骤</h2>
+<p>==<strong>所有步骤应于冰上操作</strong>==</p>
 <ol type="1">
-<li><p>收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合</p></li>
-<li><p>==<strong>PBS什么时候加</strong>==等体积稀释血液</p></li>
-<li><p>移取4毫升Ficoll Histopaque到15ml离心管中</p></li>
-<li><p>使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。</p></li>
-<li><p>Fixed angle rotors Centrifuge <strong>时间</strong>min，<strong>转速</strong>×g，4℃，==<strong>？升降</strong>==</p></li>
-<li><p>立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）</p>
-<p><img src="attachments/PBMCs.bmp" class="img-fluid"></p></li>
-<li><p>用10 ml无菌PBS<strong>洗涤</strong>（在1 x g中离心<strong>时间</strong>分钟）两次。来自4ml血液的细胞的近似产率在<span class="math inline">\(10^7\)</span>~<span class="math inline">\(10^8\)</span>之间变化。</p></li>
-<li><p>细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；</p></li>
-<li><p><strong>细胞冻存</strong>：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。</p></li>
-</ol>
-<blockquote class="blockquote">
+<li>蛋白提取
 <ol type="1">
-<li>Ficoll Histopaque和人类血液样本、==<em>PBS</em> <strong>?</strong>==之间的比例为*<strong>1:1:1</strong>。对于其它物种的PBMC的纯化比例可以是不同的。</li>
-<li>Ficoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集</li>
+<li>洗涤细胞</li>
+<li>裂解</li>
+</ol></li>
+<li>蛋白定量
+<ol type="1">
+<li>96孔板</li>
+<li>BCA，稀释10倍</li>
+<li>恒温37℃孵育30min</li>
+<li>酶标仪，ABS，562nm</li>
+<li>计算浓度</li>
+</ol></li>
+<li>蛋白变性
+<ol type="1">
+<li>protein:5×loading buffer=4:1稀释</li>
+<li>95℃加热5分钟</li>
+<li>若是Co-IP，利用beads说明书</li>
+</ol></li>
+<li>计算上样量
+<ol type="1">
+<li><span class="math inline">\(\frac{上样量(μg)}{c×8}\)</span></li>
+</ol></li>
+<li>电泳
+<ol type="1">
+<li>预制胶，撕掉红色条膜</li>
+<li>电泳液</li>
+<li>恒压100-140V，60min</li>
+</ol></li>
+<li>转膜
+<ol type="1">
+<li>甲醇激活膜</li>
+<li>凝胶水冲，转膜液激活，<strong>“黑胶”</strong></li>
+<li>转膜液平衡膜</li>
+<li><strong>“白膜”</strong></li>
+<li>赶走气泡</li>
+<li>恒流280mA，60-90min</li>
+</ol></li>
+<li>封闭
+<ol type="1">
+<li>5%奶粉TBST溶液</li>
+<li>摇床50，1h</li>
+</ol></li>
+<li>一抗孵育
+<ol type="1">
+<li>一抗稀释液1：1000</li>
+<li>摇床50，4℃ .pm~ .am,</li>
+<li>TBST洗涤，3min×3</li>
+</ol></li>
+<li>二抗孵育
+<ol type="1">
+<li>二抗稀释液1：4000~5000</li>
+<li>摇床50，室温1h</li>
+<li>TBST洗涤，3min×3</li>
+</ol></li>
+<li>显影
+<ol type="1">
+<li>配制显影液</li>
+<li>显影仪</li>
+<li>Marker</li>
+<li>Samples</li>
+</ol></li>
 </ol>
-</blockquote>
 
 
 </section>
@@ -509,13 +546,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">前言</span>
+      <a href="./PBMCsIsolationFreezing.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./WB及Co-IP.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"># WB及Co-IP</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ELISA.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">酶联免疫吸附测定ELISA</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
