@@ -1,0 +1,18 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "实验方法"
+  chapters:
+    - index.md
+    - 云端试剂和仪器档案.md
+    - PBMC分离和冻存.md
+    - WB及Co-IP.md
+ 
+
+format:
+  html:
+    theme: cosmo
+editor: visual
+

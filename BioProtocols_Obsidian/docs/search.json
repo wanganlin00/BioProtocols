@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "实验方法",
+    "section": "",
+    "text": "前言\n为了学习和记录"
+  },
+  {
+    "objectID": "云端试剂和仪器档案.html",
+    "href": "云端试剂和仪器档案.html",
+    "title": "1  试剂",
+    "section": "",
+    "text": "名称\n来源\ncatalog number\n\n\n\n\n\n\n\n\n\n\n\n2 仪器"
+  },
+  {
+    "objectID": "PBMC分离和冻存.html",
+    "href": "PBMC分离和冻存.html",
+    "title": "2  试剂和仪器",
+    "section": "",
+    "text": "[[attachments/Isolation of Human PBMCs.pdf|Isolation of Human PBMCs]]\n外周血单个核细胞 Peripheral Blood Mononuclear Cells，包括淋巴细胞（Lymphocyte）、单核细胞（Monocyte）、树突状细胞（DC）和其他少量细胞 [[attachments/pbmc_proportion.bmp]] ## 试剂 1. Ficoll Histopaque 2. 二甲亚砜（DMSO） 3. 血清白蛋白（BSA） 4. 胎牛血清（FBS） 5. Freshly collected heparinised blood 新鲜采集的肝素化血液 6. Ficoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。 7. Sterile PBS 无菌PBS 8. 细胞冻存液：FBS中加入10%DMSO ## 仪器 - Heparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶 - Centrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管 - Pipette gun移液枪和1ml枪头 # 步骤 1. 收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合 2. 移取4毫升Ficoll Histopaque到15ml离心管中 3. ==PBS什么时候加== 4. 使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。 5. Fixed angle rotors Centrifuge 时间min，转速×g，4℃，==？升降== 6. 立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）。[[attachments/PBMCs.png]] 7. 用10 ml无菌PBS洗涤（在1 x g中离心时间分钟）两次。来自4ml血液的细胞的近似产率在\\(10^7\\)~\\(10^8\\)之间变化。 8. 细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板； 9. 细胞冻存：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。\n\n[!注意] 1. Ficoll Histopaque和人类血液样本、==PBS ?==之间的比例为*1:1:1。对于其它物种的PBMC的纯化比例可以是不同的 2. Ficoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集"
+  },
+  {
+    "objectID": "WB及Co-IP.html",
+    "href": "WB及Co-IP.html",
+    "title": "3  蛋白质的定量测定",
+    "section": "",
+    "text": "4 试剂和仪器\n\nPBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液\n==显影液：A液，B液=="
+  }
+]
