@@ -1,3 +1,8 @@
+/.quarto/
+/.obsidian/
+/.trash/
+/attachments/
+/site_libs/
 .Rproj.user
 .Rhistory
 .RData
