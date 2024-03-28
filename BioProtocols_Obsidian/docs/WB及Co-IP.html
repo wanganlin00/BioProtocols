@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>实验方法 - 3&nbsp; 蛋白质的定量测定</title>
+<title>实验方法 - 3&nbsp; WB及Co-IP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,6 +61,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -73,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./WB及Co-IP.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">蛋白质的定量测定</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./WB及Co-IP.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -107,19 +109,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./云端试剂和仪器档案.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">试剂</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">云端试剂和仪器档案</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./PBMC分离和冻存.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">试剂和仪器</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./WB及Co-IP.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">蛋白质的定量测定</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></span></a>
   </div>
 </li>
     </ul>
@@ -132,7 +134,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#试剂和仪器" id="toc-试剂和仪器" class="nav-link active" data-scroll-target="#试剂和仪器"><span class="header-section-number">4</span> 试剂和仪器</a></li>
+  <li><a href="#试剂和仪器" id="toc-试剂和仪器" class="nav-link active" data-scroll-target="#试剂和仪器"><span class="header-section-number">3.1</span> 试剂和仪器</a>
+  <ul class="collapse">
+  <li><a href="#试剂" id="toc-试剂" class="nav-link" data-scroll-target="#试剂"><span class="header-section-number">3.1.1</span> 试剂</a></li>
+  </ul></li>
+  <li><a href="#步骤" id="toc-步骤" class="nav-link" data-scroll-target="#步骤"><span class="header-section-number">3.2</span> 步骤</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">蛋白质的定量测定</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></h1>
 </div>
 
 
@@ -156,8 +162,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="试剂和仪器" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> 试剂和仪器</h1>
+<hr>
+<section id="试剂和仪器" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="试剂和仪器"><span class="header-section-number">3.1</span> 试剂和仪器</h2>
+<section id="试剂" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="试剂"><span class="header-section-number">3.1.1</span> 试剂</h3>
 <ol type="1">
 <li>PBS</li>
 <li>高效RIPA裂解液</li>
@@ -165,8 +174,85 @@ ul.task-list li input[type="checkbox"] {
 <li>==BCA法：A液，B液==</li>
 <li>5 × loading buffer</li>
 <li>电泳缓冲液</li>
-<li>转膜缓冲液</li>
-<li>==显影液：A液，B液==</li>
+<li>转膜缓冲液:700ml <span class="math inline">\(ddH_2O\)</span> : 200ml 甲醇 : 100ml 10×转膜液</li>
+<li>封闭液</li>
+<li>1×TBST</li>
+<li>一抗</li>
+<li>二抗</li>
+<li>一抗稀释液</li>
+<li>二抗稀释液</li>
+<li>==显影液：A液，B液== ### 仪器</li>
+<li>恒温摇床</li>
+<li>冷冻离心机</li>
+<li>96孔酶标板</li>
+</ol>
+</section>
+</section>
+<section id="步骤" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="步骤"><span class="header-section-number">3.2</span> 步骤</h2>
+<ol type="1">
+<li>蛋白提取
+<ol type="1">
+<li>洗涤细胞</li>
+<li>裂解</li>
+</ol></li>
+<li>蛋白定量
+<ol type="1">
+<li>96孔板</li>
+<li>BCA</li>
+<li>恒温37℃孵育30min</li>
+<li>酶标仪，ABS，562nm</li>
+<li>计算浓度</li>
+</ol></li>
+<li>蛋白变性
+<ol type="1">
+<li>protein:5×loading buffer=4:1稀释</li>
+<li>95℃加热5分钟</li>
+<li>若是Co-IP，利用beads说明书</li>
+</ol></li>
+<li>计算上样量
+<ol type="1">
+<li><span class="math inline">\(\frac{上样量(μg)}{c×8}\)</span></li>
+</ol></li>
+<li>电泳
+<ol type="1">
+<li>预制胶，撕掉红色条膜</li>
+<li>电泳液</li>
+<li>恒压100-140V，60min</li>
+</ol></li>
+<li>转膜
+<ol type="1">
+<li>甲醇激活膜</li>
+<li>凝胶水冲，转膜液激活，<strong>“黑胶”</strong></li>
+<li>转膜液平衡膜</li>
+<li><strong>“白膜”</strong></li>
+<li>赶走气泡</li>
+<li>恒流280mA，60-90min</li>
+</ol></li>
+<li>封闭
+<ol type="1">
+<li>5%奶粉TBST溶液</li>
+<li>摇床50，1h</li>
+</ol></li>
+<li>一抗孵育
+<ol type="1">
+<li>一抗稀释液1：1000</li>
+<li>摇床50，4℃ .pm~ .am,</li>
+<li>TBST洗涤，3min×3</li>
+</ol></li>
+<li>二抗孵育
+<ol type="1">
+<li>二抗稀释液1：4000~5000</li>
+<li>摇床50，室温1h</li>
+<li>TBST洗涤，3min×3</li>
+</ol></li>
+<li>显影
+<ol type="1">
+<li>配制显影液</li>
+<li>显影仪</li>
+<li>Marker</li>
+<li>Samples</li>
+</ol></li>
 </ol>
 
 
@@ -409,7 +495,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./PBMC分离和冻存.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">试剂和仪器</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

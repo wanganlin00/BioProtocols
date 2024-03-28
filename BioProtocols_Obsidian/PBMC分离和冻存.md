@@ -1,12 +1,14 @@
+# PBMC分离和冻存
+---
 <https://doi.org/10.1007/7651_2014_99>
 
 **外周血单个核细胞** Peripheral Blood Mononuclear Cells，包括淋巴细胞（Lymphocyte）、单核细胞（Monocyte）、树突状细胞（DC）和其他少量细胞
 
 ![](attachments/pbmc_proportion.bmp)
 
-# 试剂和仪器
+## 试剂和仪器
 
-## 试剂
+### 试剂
 
 1.  1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS
 2.  Ficoll Histopaque
@@ -17,13 +19,13 @@
 7.  Ficoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。
 8.  细胞冻存液：FBS中加入10%DMSO
 
-## 仪器
+### 仪器
 
 -   Heparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶
 -   Centrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管
 -   Pipette gun移液枪和1ml枪头
 
-# 步骤
+## 步骤
 
 1.  收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合
 
