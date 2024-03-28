@@ -23,14 +23,14 @@
   {
     "objectID": "WB+Co-IP.html#试剂和仪器",
     "href": "WB+Co-IP.html#试剂和仪器",
-    "title": "2  # WB及Co-IP",
+    "title": "2  WB及Co-IP",
     "section": "2.1 试剂和仪器",
     "text": "2.1 试剂和仪器\n\n2.1.1 试剂\n\nPBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液:700ml \\(ddH_2O\\) : 200ml 甲醇 : 100ml 10×转膜液\n封闭液\n1×TBST\n一抗\n二抗\n一抗稀释液\n二抗稀释液\n==显影液：A液，B液== ### 仪器\n恒温摇床\n冷冻离心机\n96孔酶标板"
   },
   {
     "objectID": "WB+Co-IP.html#步骤",
     "href": "WB+Co-IP.html#步骤",
-    "title": "2  # WB及Co-IP",
+    "title": "2  WB及Co-IP",
     "section": "2.2 步骤",
     "text": "2.2 步骤\n==所有步骤应于冰上操作==\n\n蛋白提取\n\n洗涤细胞\n裂解\n\n蛋白定量\n\n96孔板\nBCA，稀释10倍\n恒温37℃孵育30min\n酶标仪，ABS，562nm\n计算浓度\n\n蛋白变性\n\nprotein:5×loading buffer=4:1稀释\n95℃加热5分钟\n若是Co-IP，利用beads说明书\n\n计算上样量\n\n\\(\\frac{上样量(μg)}{c×8}\\)\n\n电泳\n\n预制胶，撕掉红色条膜\n电泳液\n恒压100-140V，60min\n\n转膜\n\n甲醇激活膜\n凝胶水冲，转膜液激活，“黑胶”\n转膜液平衡膜\n“白膜”\n赶走气泡\n恒流280mA，60-90min\n\n封闭\n\n5%奶粉TBST溶液\n摇床50，1h\n\n一抗孵育\n\n一抗稀释液1：1000\n摇床50，4℃ .pm~ .am,\nTBST洗涤，3min×3\n\n二抗孵育\n\n二抗稀释液1：4000~5000\n摇床50，室温1h\nTBST洗涤，3min×3\n\n显影\n\n配制显影液\n显影仪\nMarker\nSamples"
   },
