@@ -6,9 +6,24 @@ book:
   title: "实验方法"
   chapters:
     - index.md
-    - PBMC分离和冻存.md
-    - WB及Co-IP.md
-    - PCR.md
+    - part: "cell"
+      chapters: 
+        - PBMC分离和冻存.md
+        
+        
+    - part: "protein"
+      chapters:
+        - WB及Co-IP.md
+        - ELISA.md
+    
+    
+    - part: "DNA"
+      chapters:
+        - 质粒DNA的提取.md
+        - PCR.md
+        - ReverseTranscription-PCR.md
+        - real-time_Quantitative-PCR.md
+
  
 
 format:
