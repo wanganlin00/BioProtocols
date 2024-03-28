@@ -1,6 +1,6 @@
 # PBMC分离和冻存
 ---
-<https://doi.org/10.1007/7651_2014_99>
+[Peripheral Blood Mononuclear Cells: Isolation, Freezing, Thawing, and Culture](https://doi.org/10.1007/7651_2014_99)
 
 **外周血单个核细胞** Peripheral Blood Mononuclear Cells，包括淋巴细胞（Lymphocyte）、单核细胞（Monocyte）、树突状细胞（DC）和其他少量细胞
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>实验方法 - 1&nbsp; 云端试剂和仪器档案</title>
+<title>实验方法 - 3&nbsp; PCR基因扩增</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./PBMC分离和冻存.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./WB及Co-IP.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,6 +61,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -74,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./云端试剂和仪器档案.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">云端试剂和仪器档案</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PCR.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">PCR基因扩增</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,25 +103,25 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">前言</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./云端试剂和仪器档案.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">云端试剂和仪器档案</span></span></a>
+ <span class="menu-text"># 前言</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./PBMC分离和冻存.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./WB及Co-IP.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./PCR.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">PCR基因扩增</span></span></a>
   </div>
 </li>
     </ul>
@@ -133,8 +134,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#试剂" id="toc-试剂" class="nav-link active" data-scroll-target="#试剂"><span class="header-section-number">1.1</span> 试剂</a></li>
-  <li><a href="#仪器" id="toc-仪器" class="nav-link" data-scroll-target="#仪器"><span class="header-section-number">1.2</span> 仪器</a></li>
+  <li><a href="#试剂和仪器" id="toc-试剂和仪器" class="nav-link active" data-scroll-target="#试剂和仪器"><span class="header-section-number">3.1</span> 试剂和仪器</a>
+  <ul class="collapse">
+  <li><a href="#试剂" id="toc-试剂" class="nav-link" data-scroll-target="#试剂"><span class="header-section-number">3.1.1</span> 试剂</a></li>
+  </ul></li>
+  <li><a href="#步骤" id="toc-步骤" class="nav-link" data-scroll-target="#步骤"><span class="header-section-number">3.2</span> 步骤</a></li>
   </ul>
 </nav>
     </div>
@@ -143,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">云端试剂和仪器档案</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">PCR基因扩增</span></h1>
 </div>
 
 
@@ -159,29 +163,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <hr>
-<section id="试剂" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="试剂"><span class="header-section-number">1.1</span> 试剂</h2>
-<table class="table">
-<thead>
-<tr class="header">
-<th>名称</th>
-<th>来源</th>
-<th>catalog number</th>
-<th>价格</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PBS</td>
-<td>Biochemistry</td>
-<td>5252225</td>
-<td>￥43.00</td>
-</tr>
-</tbody>
-</table>
+<section id="试剂和仪器" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="试剂和仪器"><span class="header-section-number">3.1</span> 试剂和仪器</h2>
+<section id="试剂" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="试剂"><span class="header-section-number">3.1.1</span> 试剂</h3>
+<ol type="1">
+<li>热稳定DNA聚合酶（<em>taq</em>酶，-20℃）。</li>
+<li>10×PCR扩增缓冲液。</li>
+<li>25 mmol/L <span class="math inline">\(MgCl_2\)</span>。</li>
+<li>4种脱氧单核苷酸（dNTPs）混合贮存液（20 mmol/L,pH=8.0,-20℃）</li>
+<li>50×TAE缓冲液</li>
+<li>阴性对照模板DNA</li>
+<li>正向引物(F,20μmol/L)及反向引物(R,20μmol/L)溶于灭菌<span class="math inline">\(ddH_2O\)</span>中 ### 仪器</li>
+</ol>
+<ul>
+<li>PCR管(0.2mL)</li>
+<li>PCR仪(Biolab,带热盖)</li>
+</ul>
 </section>
-<section id="仪器" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="仪器"><span class="header-section-number">1.2</span> 仪器</h2>
+</section>
+<section id="步骤" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="步骤"><span class="header-section-number">3.2</span> 步骤</h2>
+<ol type="1">
+<li>引物设计
+<ol type="1">
+<li>faf</li>
+<li>fa</li>
+</ol></li>
+<li>引物配置
+<ol type="1">
+<li>分子量计算公式：<span class="math display">\[分子量 =C\times288+A\times312+G\times328+T\times303-61 \]</span>或者==<span class="math display">\[近似分子量\approx 碱基数\times 324.5\]</span>==</li>
+<li>引物工作浓度5-10 μmol/L,10 ×，20bp，2.0<span class="math inline">\(OD_{260}\)</span> <span class="math display">\[1.0 OD_{260}=33\mu g Oligo DNA\]</span> 终浓度为50μmol/L</li>
+<li>计算：<span class="math display">\[分子量=20\times 324.5=6490 g/mol\]</span> <span class="math display">\[质量数=2\times33=66\mu g\]</span> <span class="math display">\[物质的量=66{\div}6490=0.010μmol\]</span> <span class="math display">\[终体积=0.010{\div}50×10^6=200μL\]</span></li>
+<li>离心机，<span class="math inline">\(ddH_2O\)</span>溶解Oligo</li>
+</ol></li>
+<li>PCR反应组分
+<ol type="1">
+<li>常规50μL反应体系：
+<ul>
+<li>模板DNA1~500ng</li>
+<li>正向引物5~10ng</li>
+<li>反向引物5~10ng</li>
+<li>1×PCR缓冲液</li>
+<li><span class="math inline">\(MgCl_2\)</span></li>
+<li>dNTPS混合液</li>
+<li><em>Taq</em>酶 1unit</li>
+</ul></li>
+<li>以自制质粒DNA为模板的PCR反应：
+<ul>
+<li>0.2mL PCR 管依次加入
+<ol type="1">
+<li>10×PCR扩增缓冲液（含<span class="math inline">\(MgCl_2\)</span>) 5μL</li>
+<li>20mmol/L dNTPs混合液 1μL</li>
+<li>5μmol/L正向引物 2.5μL</li>
+<li>5μmol/L反向引物 2.5μL</li>
+<li><span class="math inline">\(ddH_2O\)</span> 37μL</li>
+<li>模板质粒DNA 1μL</li>
+<li>1~5U/μL Taq聚合酶 1U</li>
+</ol>
+<ul>
+<li>总体积 50μL</li>
+</ul></li>
+</ul></li>
+</ol></li>
+<li>设置对照组实验
+<ol type="1">
+<li>阳性对照：靶DNA片段</li>
+<li>阴性对照：P154 正向/反向引物，有/无模板DNA，非特异性配对，污染</li>
+</ol></li>
+<li>PCR仪
+<ol type="1">
+<li>高温95℃变性</li>
+<li>低温50~65℃退火</li>
+<li>中温72℃延伸</li>
+</ol></li>
+<li>产物鉴定：凝胶电泳</li>
+</ol>
 
 
 </section>
@@ -422,14 +479,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">前言</span>
+      <a href="./WB及Co-IP.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">WB及Co-IP</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./PBMC分离和冻存.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">PBMC分离和冻存</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -1,51 +1,51 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#前言",
+    "href": "index.html#前言",
     "title": "实验方法",
-    "section": "",
-    "text": "前言\n\n为了学习和记录"
-  },
-  {
-    "objectID": "云端试剂和仪器档案.html#试剂",
-    "href": "云端试剂和仪器档案.html#试剂",
-    "title": "1  云端试剂和仪器档案",
-    "section": "1.1 试剂",
-    "text": "1.1 试剂\n\n\n\n名称\n来源\ncatalog number\n价格\n\n\n\n\nPBS\nBiochemistry\n5252225\n￥43.00"
-  },
-  {
-    "objectID": "云端试剂和仪器档案.html#仪器",
-    "href": "云端试剂和仪器档案.html#仪器",
-    "title": "1  云端试剂和仪器档案",
-    "section": "1.2 仪器",
-    "text": "1.2 仪器"
+    "section": "# 前言",
+    "text": "# 前言\n为了学习和记录\nWPS 云端试剂和仪器档案"
   },
   {
     "objectID": "PBMC分离和冻存.html#试剂和仪器",
     "href": "PBMC分离和冻存.html#试剂和仪器",
-    "title": "2  PBMC分离和冻存",
-    "section": "2.1 试剂和仪器",
-    "text": "2.1 试剂和仪器\n\n2.1.1 试剂\n\n1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS\nFicoll Histopaque\n二甲亚砜（DMSO）\n血清白蛋白（BSA）\n10%胎牛血清（FBS）\nFreshly collected heparinised blood 新鲜采集的肝素化血液\nFicoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。\n细胞冻存液：FBS中加入10%DMSO\n\n\n\n2.1.2 仪器\n\nHeparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶\nCentrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管\nPipette gun移液枪和1ml枪头"
+    "title": "1  PBMC分离和冻存",
+    "section": "1.1 试剂和仪器",
+    "text": "1.1 试剂和仪器\n\n1.1.1 试剂\n\n1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS\nFicoll Histopaque\n二甲亚砜（DMSO）\n血清白蛋白（BSA）\n10%胎牛血清（FBS）\nFreshly collected heparinised blood 新鲜采集的肝素化血液\nFicoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。\n细胞冻存液：FBS中加入10%DMSO\n\n\n\n1.1.2 仪器\n\nHeparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶\nCentrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管\nPipette gun移液枪和1ml枪头"
   },
   {
     "objectID": "PBMC分离和冻存.html#步骤",
     "href": "PBMC分离和冻存.html#步骤",
-    "title": "2  PBMC分离和冻存",
-    "section": "2.2 步骤",
-    "text": "2.2 步骤\n\n收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合\n==PBS什么时候加==等体积稀释血液\n移取4毫升Ficoll Histopaque到15ml离心管中\n使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。\nFixed angle rotors Centrifuge 时间min，转速×g，4℃，==？升降==\n立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）\n\n用10 ml无菌PBS洗涤（在1 x g中离心时间分钟）两次。来自4ml血液的细胞的近似产率在\\(10^7\\)~\\(10^8\\)之间变化。\n细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；\n细胞冻存：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。\n\n\n\nFicoll Histopaque和人类血液样本、==PBS ?==之间的比例为*1:1:1。对于其它物种的PBMC的纯化比例可以是不同的。\nFicoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集"
+    "title": "1  PBMC分离和冻存",
+    "section": "1.2 步骤",
+    "text": "1.2 步骤\n\n收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合\n==PBS什么时候加==等体积稀释血液\n移取4毫升Ficoll Histopaque到15ml离心管中\n使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。\nFixed angle rotors Centrifuge 时间min，转速×g，4℃，==？升降==\n立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）\n\n用10 ml无菌PBS洗涤（在1 x g中离心时间分钟）两次。来自4ml血液的细胞的近似产率在\\(10^7\\)~\\(10^8\\)之间变化。\n细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；\n细胞冻存：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。\n\n\n\nFicoll Histopaque和人类血液样本、==PBS ?==之间的比例为*1:1:1。对于其它物种的PBMC的纯化比例可以是不同的。\nFicoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集"
   },
   {
     "objectID": "WB及Co-IP.html#试剂和仪器",
     "href": "WB及Co-IP.html#试剂和仪器",
-    "title": "3  WB及Co-IP",
-    "section": "3.1 试剂和仪器",
-    "text": "3.1 试剂和仪器\n\n3.1.1 试剂\n\nPBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液:700ml \\(ddH_2O\\) : 200ml 甲醇 : 100ml 10×转膜液\n封闭液\n1×TBST\n一抗\n二抗\n一抗稀释液\n二抗稀释液\n==显影液：A液，B液== ### 仪器\n恒温摇床\n冷冻离心机\n96孔酶标板"
+    "title": "2  WB及Co-IP",
+    "section": "2.1 试剂和仪器",
+    "text": "2.1 试剂和仪器\n\n2.1.1 试剂\n\nPBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液:700ml \\(ddH_2O\\) : 200ml 甲醇 : 100ml 10×转膜液\n封闭液\n1×TBST\n一抗\n二抗\n一抗稀释液\n二抗稀释液\n==显影液：A液，B液== ### 仪器\n恒温摇床\n冷冻离心机\n96孔酶标板"
   },
   {
     "objectID": "WB及Co-IP.html#步骤",
     "href": "WB及Co-IP.html#步骤",
-    "title": "3  WB及Co-IP",
+    "title": "2  WB及Co-IP",
+    "section": "2.2 步骤",
+    "text": "2.2 步骤\n==所有步骤应于冰上操作== 1. 蛋白提取 1. 洗涤细胞 2. 裂解 2. 蛋白定量 1. 96孔板 2. BCA，稀释10倍 3. 恒温37℃孵育30min 4. 酶标仪，ABS，562nm 5. 计算浓度 3. 蛋白变性 1. protein:5×loading buffer=4:1稀释 2. 95℃加热5分钟 3. 若是Co-IP，利用beads说明书 4. 计算上样量 1. \\(\\frac{上样量(μg)}{c×8}\\) 5. 电泳 1. 预制胶，撕掉红色条膜 2. 电泳液 3. 恒压100-140V，60min 6. 转膜 1. 甲醇激活膜 2. 凝胶水冲，转膜液激活，“黑胶” 3. 转膜液平衡膜 4. “白膜” 5. 赶走气泡 6. 恒流280mA，60-90min 7. 封闭 1. 5%奶粉TBST溶液 2. 摇床50，1h 8. 一抗孵育 1. 一抗稀释液1：1000 2. 摇床50，4℃ .pm~ .am, 3. TBST洗涤，3min×3 9. 二抗孵育 1. 二抗稀释液1：4000~5000 2. 摇床50，室温1h 3. TBST洗涤，3min×3 10. 显影 1. 配制显影液 2. 显影仪 3. Marker 4. Samples"
+  },
+  {
+    "objectID": "PCR.html#试剂和仪器",
+    "href": "PCR.html#试剂和仪器",
+    "title": "3  PCR基因扩增",
+    "section": "3.1 试剂和仪器",
+    "text": "3.1 试剂和仪器\n\n3.1.1 试剂\n\n热稳定DNA聚合酶（taq酶，-20℃）。\n10×PCR扩增缓冲液。\n25 mmol/L \\(MgCl_2\\)。\n4种脱氧单核苷酸（dNTPs）混合贮存液（20 mmol/L,pH=8.0,-20℃）\n50×TAE缓冲液\n阴性对照模板DNA\n正向引物(F,20μmol/L)及反向引物(R,20μmol/L)溶于灭菌\\(ddH_2O\\)中 ### 仪器\n\n\nPCR管(0.2mL)\nPCR仪(Biolab,带热盖)"
+  },
+  {
+    "objectID": "PCR.html#步骤",
+    "href": "PCR.html#步骤",
+    "title": "3  PCR基因扩增",
     "section": "3.2 步骤",
-    "text": "3.2 步骤\n\n蛋白提取\n\n洗涤细胞\n裂解\n\n蛋白定量\n\n96孔板\nBCA\n恒温37℃孵育30min\n酶标仪，ABS，562nm\n计算浓度\n\n蛋白变性\n\nprotein:5×loading buffer=4:1稀释\n95℃加热5分钟\n若是Co-IP，利用beads说明书\n\n计算上样量\n\n\\(\\frac{上样量(μg)}{c×8}\\)\n\n电泳\n\n预制胶，撕掉红色条膜\n电泳液\n恒压100-140V，60min\n\n转膜\n\n甲醇激活膜\n凝胶水冲，转膜液激活，“黑胶”\n转膜液平衡膜\n“白膜”\n赶走气泡\n恒流280mA，60-90min\n\n封闭\n\n5%奶粉TBST溶液\n摇床50，1h\n\n一抗孵育\n\n一抗稀释液1：1000\n摇床50，4℃ .pm~ .am,\nTBST洗涤，3min×3\n\n二抗孵育\n\n二抗稀释液1：4000~5000\n摇床50，室温1h\nTBST洗涤，3min×3\n\n显影\n\n配制显影液\n显影仪\nMarker\nSamples"
+    "text": "3.2 步骤\n\n引物设计\n\nfaf\nfa\n\n引物配置\n\n分子量计算公式：\\[分子量 =C\\times288+A\\times312+G\\times328+T\\times303-61 \\]或者==\\[近似分子量\\approx 碱基数\\times 324.5\\]==\n引物工作浓度5-10 μmol/L,10 ×，20bp，2.0\\(OD_{260}\\) \\[1.0 OD_{260}=33\\mu g Oligo DNA\\] 终浓度为50μmol/L\n计算：\\[分子量=20\\times 324.5=6490 g/mol\\] \\[质量数=2\\times33=66\\mu g\\] \\[物质的量=66{\\div}6490=0.010μmol\\] \\[终体积=0.010{\\div}50×10^6=200μL\\]\n离心机，\\(ddH_2O\\)溶解Oligo\n\nPCR反应组分\n\n常规50μL反应体系：\n\n模板DNA1~500ng\n正向引物5~10ng\n反向引物5~10ng\n1×PCR缓冲液\n\\(MgCl_2\\)\ndNTPS混合液\nTaq酶 1unit\n\n以自制质粒DNA为模板的PCR反应：\n\n0.2mL PCR 管依次加入\n\n10×PCR扩增缓冲液（含\\(MgCl_2\\)) 5μL\n20mmol/L dNTPs混合液 1μL\n5μmol/L正向引物 2.5μL\n5μmol/L反向引物 2.5μL\n\\(ddH_2O\\) 37μL\n模板质粒DNA 1μL\n1~5U/μL Taq聚合酶 1U\n\n\n总体积 50μL\n\n\n\n设置对照组实验\n\n阳性对照：靶DNA片段\n阴性对照：P154 正向/反向引物，有/无模板DNA，非特异性配对，污染\n\nPCR仪\n\n高温95℃变性\n低温50~65℃退火\n中温72℃延伸\n\n产物鉴定：凝胶电泳"
   }
 ]
