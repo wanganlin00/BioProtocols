@@ -17,7 +17,7 @@ book:
         - ELISA.md
     
     
-    - part: "DNA"
+    - part: "nucleic acid"
       chapters:
         - PCR.md
         - real-time_ReverseTranscription-PCR.md
