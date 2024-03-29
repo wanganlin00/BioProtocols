@@ -19,9 +19,10 @@ book:
     
     - part: "DNA"
       chapters:
-        - plasmidDNApurification.md
         - PCR.md
         - real-time_ReverseTranscription-PCR.md
+        - plasmidDNA_purification_digestion_identification.md
+        - TransformationCaCl2.md
 
 
  
