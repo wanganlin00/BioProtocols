@@ -26,6 +26,7 @@ website:
       alignment: left
       collapse-level: 4
       contents: 
+        - protocol.md
         - section: "cell"
           contents: 
             - PBMCsIsolationFreezing.md

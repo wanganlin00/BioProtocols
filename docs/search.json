@@ -4,7 +4,10 @@
     "href": "protocol.html",
     "title": "实验流程",
     "section": "",
-    "text": "实验流程\n记录\n\n\n\n\n Back to top"
+    "text": "实验流程\n记录\n\n\n\n\n Back to top",
+    "crumbs": [
+      "实验流程"
+    ]
   },
   {
     "objectID": "geneKnockout.html",
@@ -20,6 +23,7 @@
     "section": "",
     "text": "#plasmidDNA #DNA\n\n\n\n\n\n纯化\n\nSolution1 GET\nSolution2 NaOH，SDS 新鲜配制\nSolution3 高盐溶液 4℃保存\nTE 缓冲液\nLB 培养基 琼脂粉Agar\n含质粒的大肠杆菌DH5α\n\n酶切与鉴定\n\nEcoR Ⅰ，BamH Ⅰ，通用缓冲液\n10× TBE缓冲液\n6×loading buffer\n菲啶溴红染色液： EB（溴化乙锭）\nGel-Red荧光染剂 核酸染料\nDNA Marker\n\n\n\n\n\n恒温箱，电泳仪，离心机，紫外灯，凝胶成像仪\n\n\n\n\n\n培养细菌：将单菌落大肠杆菌接种在LB液体培养基，加入适当的抗生素，37℃培养12-18h\n纯化质粒DNA：分离细菌染色体、蛋白质、细菌胞膜、细菌核糖体\n\n收集细菌：1.5ml EP管，离心，弃去上清液\n去除RNA：GET 缓冲液，RNaseA，混匀，室温10min\n溶菌：Solution Ⅱ，颠倒混匀至清亮，冰上5min，==避免震荡==\n沉淀细菌染色体蛋白质：预冷Solution Ⅲ，颠倒混匀，冰上15min\n获取粗提质粒：离心，上清液转移入另一个干净的EP 管\n沉淀质粒：等体积异丙醇，颠倒混匀，室温5min，离心，弃去上清液\n去除杂蛋白： \\(\\ce{ ddH2O}\\)溶解沉淀，\\(\\frac{1}{2}\\)体积\\(NH_4Ac\\)，颠倒混匀冰浴5min，离心，上清液转移入另一个干净的EP 管\n沉淀质粒DNA：2倍体积无水乙醇，-20℃10min，离心，弃去上清液，吸水纸吸干\n去除EP 管中的盐：70%乙醇，颠倒，离心，弃去上清液，吸水纸吸干\n温箱干燥\n保存待用：-20℃保存或30μL TE缓冲液或\\(ddH_2O\\)溶解\n\n酶切\n\n标准酶切反应体系（20μL）：\n\n单酶切：\n\n质粒DNA X μL\n配套的10 × 缓冲液 2μL\n\\(ddH_2O\\) 20-（X+3）\n内切酶 2U（1μL）\n\n双酶切：\n\n质粒DNA X μL\n通用 10 × 缓冲液 2μL\n\\(ddH_2O\\) 20-（X+4）\n内切酶1 2U（1μL）\n内切酶2 2U（1μL）\n\n\n\n\n20μL TE缓冲液或\\(ddH_2O\\)溶解质粒DNA，==浓度？==\nEP 管编号，冰上进行，按上述依次加样，混匀\n恒温37℃，酶解2~3h\nDNA电泳或-20℃保存\n\n电泳鉴定\n\n琼脂糖凝胶\n上样：6×loading buffer 含Gel-Red ==上样量？==\n观察：254nm紫外灯 ，DNA红色荧光。305nm紫外灯，EB染色条带。",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "质粒DNA纯化、酶切与鉴定"
     ]
@@ -31,6 +35,7 @@
     "section": "",
     "text": "纯化\n\nSolution1 GET\nSolution2 NaOH，SDS 新鲜配制\nSolution3 高盐溶液 4℃保存\nTE 缓冲液\nLB 培养基 琼脂粉Agar\n含质粒的大肠杆菌DH5α\n\n酶切与鉴定\n\nEcoR Ⅰ，BamH Ⅰ，通用缓冲液\n10× TBE缓冲液\n6×loading buffer\n菲啶溴红染色液： EB（溴化乙锭）\nGel-Red荧光染剂 核酸染料\nDNA Marker\n\n\n\n\n\n恒温箱，电泳仪，离心机，紫外灯，凝胶成像仪",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "质粒DNA纯化、酶切与鉴定"
     ]
@@ -42,6 +47,7 @@
     "section": "",
     "text": "培养细菌：将单菌落大肠杆菌接种在LB液体培养基，加入适当的抗生素，37℃培养12-18h\n纯化质粒DNA：分离细菌染色体、蛋白质、细菌胞膜、细菌核糖体\n\n收集细菌：1.5ml EP管，离心，弃去上清液\n去除RNA：GET 缓冲液，RNaseA，混匀，室温10min\n溶菌：Solution Ⅱ，颠倒混匀至清亮，冰上5min，==避免震荡==\n沉淀细菌染色体蛋白质：预冷Solution Ⅲ，颠倒混匀，冰上15min\n获取粗提质粒：离心，上清液转移入另一个干净的EP 管\n沉淀质粒：等体积异丙醇，颠倒混匀，室温5min，离心，弃去上清液\n去除杂蛋白： \\(\\ce{ ddH2O}\\)溶解沉淀，\\(\\frac{1}{2}\\)体积\\(NH_4Ac\\)，颠倒混匀冰浴5min，离心，上清液转移入另一个干净的EP 管\n沉淀质粒DNA：2倍体积无水乙醇，-20℃10min，离心，弃去上清液，吸水纸吸干\n去除EP 管中的盐：70%乙醇，颠倒，离心，弃去上清液，吸水纸吸干\n温箱干燥\n保存待用：-20℃保存或30μL TE缓冲液或\\(ddH_2O\\)溶解\n\n酶切\n\n标准酶切反应体系（20μL）：\n\n单酶切：\n\n质粒DNA X μL\n配套的10 × 缓冲液 2μL\n\\(ddH_2O\\) 20-（X+3）\n内切酶 2U（1μL）\n\n双酶切：\n\n质粒DNA X μL\n通用 10 × 缓冲液 2μL\n\\(ddH_2O\\) 20-（X+4）\n内切酶1 2U（1μL）\n内切酶2 2U（1μL）\n\n\n\n\n20μL TE缓冲液或\\(ddH_2O\\)溶解质粒DNA，==浓度？==\nEP 管编号，冰上进行，按上述依次加样，混匀\n恒温37℃，酶解2~3h\nDNA电泳或-20℃保存\n\n电泳鉴定\n\n琼脂糖凝胶\n上样：6×loading buffer 含Gel-Red ==上样量？==\n观察：254nm紫外灯 ，DNA红色荧光。305nm紫外灯，EB染色条带。",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "质粒DNA纯化、酶切与鉴定"
     ]
@@ -53,6 +59,7 @@
     "section": "",
     "text": "#cell\nPeripheral Blood Mononuclear Cells: Isolation, Freezing, Thawing, and Culture\n外周血单个核细胞 Peripheral Blood Mononuclear Cells，包括淋巴细胞（Lymphocyte）、单核细胞（Monocyte）、树突状细胞（DC）和其他少量细胞\n\n\n\n\n\n\n1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS\nFicoll Histopaque\n二甲亚砜（DMSO）\n血清白蛋白（BSA）\n10%胎牛血清（FBS）\nFreshly collected heparinised blood 新鲜采集的肝素化血液\nFicoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。\n细胞冻存液：FBS中加入10%DMSO\n\n\n\n\n\nHeparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶\nCentrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管\nPipette gun移液枪和1ml枪头\n\n\n\n\n\n\n收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合\n==PBS什么时候加==等体积稀释血液\n移取4毫升Ficoll Histopaque到15ml离心管中\n使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。\nFixed angle rotors Centrifuge 时间min，转速×g，4℃，==？升降==\n立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）\n\n用10 ml无菌PBS洗涤（在1 x g中离心时间分钟）两次。来自4ml血液的细胞的近似产率在\\(10^7\\)~\\(10^8\\)之间变化。\n细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；\n细胞冻存：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。\n\n\n\nFicoll Histopaque和人类血液样本、==PBS ?==之间的比例为*1:1:1。对于其它物种的PBMC的纯化比例可以是不同的。\nFicoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集",
     "crumbs": [
+      "实验流程",
       "cell",
       "PBMC分离和冻存"
     ]
@@ -64,6 +71,7 @@
     "section": "",
     "text": "1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS\nFicoll Histopaque\n二甲亚砜（DMSO）\n血清白蛋白（BSA）\n10%胎牛血清（FBS）\nFreshly collected heparinised blood 新鲜采集的肝素化血液\nFicoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)：==Ficoll==是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。\n细胞冻存液：FBS中加入10%DMSO\n\n\n\n\n\nHeparin vials (BD Biosciences, catalog number: 367886) 肝素小瓶\nCentrifuge - Sterile 15 ml centrifuge tube 无菌15ml离心管\nPipette gun移液枪和1ml枪头",
     "crumbs": [
+      "实验流程",
       "cell",
       "PBMC分离和冻存"
     ]
@@ -75,6 +83,7 @@
     "section": "",
     "text": "收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合\n==PBS什么时候加==等体积稀释血液\n移取4毫升Ficoll Histopaque到15ml离心管中\n使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。\nFixed angle rotors Centrifuge 时间min，转速×g，4℃，==？升降==\n立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）\n\n用10 ml无菌PBS洗涤（在1 x g中离心时间分钟）两次。来自4ml血液的细胞的近似产率在\\(10^7\\)~\\(10^8\\)之间变化。\n细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；\n细胞冻存：将细胞离心收集之后，用细胞冻存液重悬。取1-1.5ml细胞至冻存管中，放入冻存盒（冻存盒可事先在4℃冰箱预冷）。再将冻存盒放置于-80℃冰箱过夜。第二天将细胞转入液氮中长期保存。\n\n\n\nFicoll Histopaque和人类血液样本、==PBS ?==之间的比例为*1:1:1。对于其它物种的PBMC的纯化比例可以是不同的。\nFicoll Histopaque储存在4°C温度下。使用前需要在室温下保持1-2小时，因为如果PBMC在预冷的Ficoll Histopaqueon血样中分层，PBMC会受到冷休克，有时会聚集",
     "crumbs": [
+      "实验流程",
       "cell",
       "PBMC分离和冻存"
     ]
@@ -86,6 +95,7 @@
     "section": "",
     "text": "#PCR #DNA\n\n\n\n\n荧光定量PCR仪\n\n\n\n\n\n目的细胞的培养\nRNA的提取 实验24\ncDNA的制备\n\n反转录体系\n引物设计\n半定量PCR反应体系\nRF PCR反应体系：SYBR Premix Ex TaqTM\n\n核糖核酸酶RNase H降解原始mRNA，留下附着在从DNA上的primer\n在DNA polymerase下合成互补链\nPCR 靶向扩增\n实时荧光定量 \n\n第一种仅在与双链DNA结合时才会在每个PCR循环结束时适当波长的光下激发染料发出荧光，非特异\n第二种使用与荧光团和猝灭剂分子相连的互补序列特异性寡核苷酸探针，持续暴露于适当波长的光下，并且猝灭剂分子在彼此靠近时吸收荧光团的荧光。DNA聚合酶在延伸过程中分离荧光团，防止淬灭\n\n分子表现出的荧光被光电探测器检测，将荧光信号转换为可读格式。==RFU==实时荧光定量RT-PCR需要配备检测器的专用PCR仪来实现实时定量\\[Threshold\\ Cycle(C_t)\\]是每个反应管内荧光信号达到设定阈值时所经历的PCR循环数，远高于背景荧光  初始样品中目标RNA的量越大，荧光显著增加的速度就越快，从而导致较低的Ct.即\\[C_t=\\frac{1}{Target RNA}\\] \\[\nCt=a×log \\  mRNA + b\n\\] 绝对定量：将样品荧光与已知 DNA 浓度制备的荧光标准曲线比较\n相对定量：将样品荧光与参考荧光比较",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "实时逆转录荧光定量PCR"
     ]
@@ -97,6 +107,7 @@
     "section": "",
     "text": "荧光定量PCR仪",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "实时逆转录荧光定量PCR"
     ]
@@ -108,6 +119,7 @@
     "section": "",
     "text": "目的细胞的培养\nRNA的提取 实验24\ncDNA的制备\n\n反转录体系\n引物设计\n半定量PCR反应体系\nRF PCR反应体系：SYBR Premix Ex TaqTM\n\n核糖核酸酶RNase H降解原始mRNA，留下附着在从DNA上的primer\n在DNA polymerase下合成互补链\nPCR 靶向扩增\n实时荧光定量 \n\n第一种仅在与双链DNA结合时才会在每个PCR循环结束时适当波长的光下激发染料发出荧光，非特异\n第二种使用与荧光团和猝灭剂分子相连的互补序列特异性寡核苷酸探针，持续暴露于适当波长的光下，并且猝灭剂分子在彼此靠近时吸收荧光团的荧光。DNA聚合酶在延伸过程中分离荧光团，防止淬灭\n\n分子表现出的荧光被光电探测器检测，将荧光信号转换为可读格式。==RFU==实时荧光定量RT-PCR需要配备检测器的专用PCR仪来实现实时定量\\[Threshold\\ Cycle(C_t)\\]是每个反应管内荧光信号达到设定阈值时所经历的PCR循环数，远高于背景荧光  初始样品中目标RNA的量越大，荧光显著增加的速度就越快，从而导致较低的Ct.即\\[C_t=\\frac{1}{Target RNA}\\] \\[\nCt=a×log \\  mRNA + b\n\\] 绝对定量：将样品荧光与已知 DNA 浓度制备的荧光标准曲线比较\n相对定量：将样品荧光与参考荧光比较",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "实时逆转录荧光定量PCR"
     ]
@@ -119,6 +131,7 @@
     "section": "",
     "text": "#protein\n\n\n\n\n\nPBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液:700ml \\(ddH_2O\\) : 200ml 甲醇 : 100ml 10×转膜液\n封闭液\n1×TBST\n一抗\n二抗\n一抗稀释液\n二抗稀释液\n==显影液：A液，B液== ### 仪器\n恒温摇床\n冷冻离心机\n96孔酶标板\n\n\n\n\n\n==所有操作应于冰上进行==\n\n蛋白提取\n\n洗涤细胞\n裂解\n\n蛋白定量\n\n96孔板\nBCA，稀释10倍\n恒温37℃孵育30min\n酶标仪，ABS，562nm\n计算浓度\n\n蛋白变性\n\nprotein:5×loading buffer=4:1稀释\n95℃加热5分钟\n若是Co-IP，利用beads说明书\n\n计算上样量\n\n\\(\\frac{上样量(μg)}{c×8}\\)\n\n电泳\n\n预制胶，撕掉红色条膜\n电泳液\n恒压100-140V，60min\n\n转膜\n\n甲醇激活膜\n凝胶水冲，转膜液激活，“黑胶”\n转膜液平衡膜\n“白膜”\n赶走气泡\n恒流280mA，60-90min\n\n封闭\n\n5%奶粉TBST溶液\n摇床50，1h\n\n一抗孵育\n\n一抗稀释液1：1000\n摇床50，4℃ .pm~ .am,\nTBST洗涤，3min×3\n\n二抗孵育\n\n二抗稀释液1：4000~5000\n摇床50，室温1h\nTBST洗涤，3min×3\n\n显影\n\n配制显影液\n显影仪\nMarker\nSamples",
     "crumbs": [
+      "实验流程",
       "protein",
       "WB&Co-IP"
     ]
@@ -130,6 +143,7 @@
     "section": "",
     "text": "PBS\n高效RIPA裂解液\nWB及Co-Ip裂解液\n==BCA法：A液，B液==\n5 × loading buffer\n电泳缓冲液\n转膜缓冲液:700ml \\(ddH_2O\\) : 200ml 甲醇 : 100ml 10×转膜液\n封闭液\n1×TBST\n一抗\n二抗\n一抗稀释液\n二抗稀释液\n==显影液：A液，B液== ### 仪器\n恒温摇床\n冷冻离心机\n96孔酶标板",
     "crumbs": [
+      "实验流程",
       "protein",
       "WB&Co-IP"
     ]
@@ -141,6 +155,7 @@
     "section": "",
     "text": "==所有操作应于冰上进行==\n\n蛋白提取\n\n洗涤细胞\n裂解\n\n蛋白定量\n\n96孔板\nBCA，稀释10倍\n恒温37℃孵育30min\n酶标仪，ABS，562nm\n计算浓度\n\n蛋白变性\n\nprotein:5×loading buffer=4:1稀释\n95℃加热5分钟\n若是Co-IP，利用beads说明书\n\n计算上样量\n\n\\(\\frac{上样量(μg)}{c×8}\\)\n\n电泳\n\n预制胶，撕掉红色条膜\n电泳液\n恒压100-140V，60min\n\n转膜\n\n甲醇激活膜\n凝胶水冲，转膜液激活，“黑胶”\n转膜液平衡膜\n“白膜”\n赶走气泡\n恒流280mA，60-90min\n\n封闭\n\n5%奶粉TBST溶液\n摇床50，1h\n\n一抗孵育\n\n一抗稀释液1：1000\n摇床50，4℃ .pm~ .am,\nTBST洗涤，3min×3\n\n二抗孵育\n\n二抗稀释液1：4000~5000\n摇床50，室温1h\nTBST洗涤，3min×3\n\n显影\n\n配制显影液\n显影仪\nMarker\nSamples",
     "crumbs": [
+      "实验流程",
       "protein",
       "WB&Co-IP"
     ]
@@ -166,6 +181,7 @@
     "section": "",
     "text": "#PCR #DNA\n\n\n\n\n\n热稳定DNA聚合酶（taq酶，-20℃）。\n10×PCR扩增缓冲液。\n25 mmol/L \\(MgCl_2\\)。\n4种脱氧单核苷三磷酸（dNTPs）混合贮存液（20 mmol/L,pH=8.0,-20℃）\n50×TAE缓冲液\n阴性对照模板DNA\n正向引物(F,20μmol/L)及反向引物(R,20μmol/L)溶于灭菌\\(ddH_2O\\)中\nEB（溴化乙锭）或荧光染料（Gel-Red）\n\n\n\n\n\nPCR管(0.2mL)\nPCR仪(Biolab,带热盖)\n\n\n\n\n\n\n引物设计\n\nprimer：一小段与目的基因共享同源性的单链DNA\nfa\n\n引物配置\n\n分子量计算公式：\\[分子量 =C\\times288+A\\times312+G\\times328+T\\times303-61 \\]或者==\\[近似分子量\\approx 碱基数\\times 324.5\\]==\n引物工作浓度5-10 μmol/L,10 ×，20bp，2.0\\(OD_{260}\\) \\[1.0 OD_{260}=33\\mu g Oligo DNA\\] 终浓度为50μmol/L\n计算：\\[分子量=20\\times 324.5=6490 g/mol\\] \\[质量数=2\\times33=66\\mu g\\] \\[物质的量=66{\\div}6490=0.010μmol\\] \\[终体积=0.010{\\div}50×10^6=200μL\\]\n离心机，\\(ddH_2O\\)溶解Oligo\n\nPCR反应组分\n\n常规50μL反应体系：\n\n模板DNA1~500ng\n正向引物5~10ng\n反向引物5~10ng\n1×PCR缓冲液\n\\(MgCl_2\\)\ndNTPS混合液\nTaq酶 1unit\n\n以自制质粒DNA为模板的PCR反应：\n\n0.2mL PCR 管依次加入\n\n10×PCR扩增缓冲液（含\\(MgCl_2\\)) 5μL\n20mmol/L dNTPs混合液 1μL\n5μmol/L正向引物 2.5μL\n5μmol/L反向引物 2.5μL\n\\(ddH_2O\\) 37μL\n模板质粒DNA 1μL\n1~5U/μL Taq聚合酶 1U\n\n\n总体积 50μL\n\n\n\n设置对照组实验\n\n阳性对照：靶DNA片段\n阴性对照：P154 正向/反向引物，有/无模板DNA，非特异性配对，污染\n\nPCR仪\n\nDenaturation 高温95℃变性\nAnnealing 低温50~65℃，55℃退火\nSynthesis 中温72℃延伸\n\n产物鉴定\n\nDNA凝胶电泳\nEB染色",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "PCR基因扩增"
     ]
@@ -177,6 +193,7 @@
     "section": "",
     "text": "热稳定DNA聚合酶（taq酶，-20℃）。\n10×PCR扩增缓冲液。\n25 mmol/L \\(MgCl_2\\)。\n4种脱氧单核苷三磷酸（dNTPs）混合贮存液（20 mmol/L,pH=8.0,-20℃）\n50×TAE缓冲液\n阴性对照模板DNA\n正向引物(F,20μmol/L)及反向引物(R,20μmol/L)溶于灭菌\\(ddH_2O\\)中\nEB（溴化乙锭）或荧光染料（Gel-Red）\n\n\n\n\n\nPCR管(0.2mL)\nPCR仪(Biolab,带热盖)",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "PCR基因扩增"
     ]
@@ -188,6 +205,7 @@
     "section": "",
     "text": "引物设计\n\nprimer：一小段与目的基因共享同源性的单链DNA\nfa\n\n引物配置\n\n分子量计算公式：\\[分子量 =C\\times288+A\\times312+G\\times328+T\\times303-61 \\]或者==\\[近似分子量\\approx 碱基数\\times 324.5\\]==\n引物工作浓度5-10 μmol/L,10 ×，20bp，2.0\\(OD_{260}\\) \\[1.0 OD_{260}=33\\mu g Oligo DNA\\] 终浓度为50μmol/L\n计算：\\[分子量=20\\times 324.5=6490 g/mol\\] \\[质量数=2\\times33=66\\mu g\\] \\[物质的量=66{\\div}6490=0.010μmol\\] \\[终体积=0.010{\\div}50×10^6=200μL\\]\n离心机，\\(ddH_2O\\)溶解Oligo\n\nPCR反应组分\n\n常规50μL反应体系：\n\n模板DNA1~500ng\n正向引物5~10ng\n反向引物5~10ng\n1×PCR缓冲液\n\\(MgCl_2\\)\ndNTPS混合液\nTaq酶 1unit\n\n以自制质粒DNA为模板的PCR反应：\n\n0.2mL PCR 管依次加入\n\n10×PCR扩增缓冲液（含\\(MgCl_2\\)) 5μL\n20mmol/L dNTPs混合液 1μL\n5μmol/L正向引物 2.5μL\n5μmol/L反向引物 2.5μL\n\\(ddH_2O\\) 37μL\n模板质粒DNA 1μL\n1~5U/μL Taq聚合酶 1U\n\n\n总体积 50μL\n\n\n\n设置对照组实验\n\n阳性对照：靶DNA片段\n阴性对照：P154 正向/反向引物，有/无模板DNA，非特异性配对，污染\n\nPCR仪\n\nDenaturation 高温95℃变性\nAnnealing 低温50~65℃，55℃退火\nSynthesis 中温72℃延伸\n\n产物鉴定\n\nDNA凝胶电泳\nEB染色",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "PCR基因扩增"
     ]
@@ -199,6 +217,7 @@
     "section": "",
     "text": "酶联免疫吸附测定ELISA\n#protein\n\n\n\n\n Back to top",
     "crumbs": [
+      "实验流程",
       "protein",
       "酶联免疫吸附测定ELISA"
     ]
@@ -210,6 +229,7 @@
     "section": "",
     "text": "#plasmidDNA #DNA\nTransformation of E. coli: Adapted Calcium Chloride Procedure | Microbiology | JoVe\n细菌适应性\n感受态：细菌容易吸收外源DNA的状态，摄取外部质粒DNA。 转化：细菌吸收外源DNA后引起其遗传物质的改变。\nGram-negative bacteria lipopolysaccharide (LPS)带负电 + 带负电的DNA+钙（Ca2+）这种方法主要用于革兰氏阴性菌的转化。\n\n\n\n\n\n受体大肠杆菌DH5α\n0.1mM \\(CaCl_2\\)\nLB 液体培养基(10 g casein enzymic hydrolysate, 5 g yeast extract and 5 g sodium chloride in 1000 mL of H2O) 固体培养基\n氨苄青霉素\n1X TAE buffer (40 mM Tris Base, 20 mM Acetic Acid and 1mM EDTA)\nSuper Optimal broth with Catabolite repression (SOC): (2% (w/v) tryptone, 0.5% (w/v) yeast extract, 10 mM NaCl, 2.5 mM KCl, 10 mM MgCl2, 10 mM MgSO4, and 20 mM glucose)\nPlasmid pUC19 DNA (100 pg/ µl)\n\n\n\n\n分光光度计 离心机 加热机 紫外线光源\n\n\n\n\n\n==除非另有说明，否则本方案中的所有步骤都需要使用无菌技术在冰上或4°C温度下进行==\n\n感受态细胞的制备：\n\n70%乙醇台面消毒\n从大肠杆菌DH5α的冷冻库（在LB中过夜培养的20%甘油中冷冻）中，带菌环在LB琼脂板上划线分离细菌。在37°C下培养过夜（16-20小时）\n第二天，70%乙醇台面消毒\n无菌接种环将单个菌落接种到试管中的3 mL LB肉汤中。37°C，210rpm摇床振荡生长过夜（16-20小时）。\n测量过夜培养物的OD600。将过夜培养物接种在1升烧瓶中的100 mL LB肉汤至OD600＝0.01。37°C，210 rpm摇床培养。每15-20分钟在分光光度计中监测一次OD600，直到培养物达到OD600=0.35（约3小时）~~注：为了使转化有效，细菌细胞需要处于指数生长中期。最大细胞数需要为\\(10^8\\)个细胞/mL，对于大多数大肠杆菌菌株来说，这相当于OD600=0.4。分光光度计的使用允许测量OD600，这允许确定细胞处于适当的生长阶段。如果该方案将用于其他菌株，则有必要进行校准，以确定特定OD600值下菌落形成单位的数量，从而确定这种相关性。\n将50毫升培养物转移到2个冰冷的聚丙烯大瓶中，瓶子放回冰上20分钟冷却\n4°C，2700g，离心10分钟来回收细胞。\n弃去上清液。将聚丙烯大瓶倒置在吸水纸上，沥干最后的介质痕迹。\n悬浮沉淀复合物到30mL CaCl2-MgCl2（80mM MgCl2，20mM CaCl2）冰冷溶液中。首先加入5 mL溶液，小心旋转，直到颗粒完全溶解，然后加入剩余的25 mL溶液。==禁止震荡器==\nRepeat 前两步\n如果感受态细胞要直接转化，则通过小心地旋转试管，将每个细菌颗粒重悬于2 mL CaCl2（0.1 M）冰冷溶液中。如果颗粒不能用这种方法重新悬浮，则通过上下轻轻移液进行重新悬浮（避免气泡形成）。也可以将感受态细胞冻存以备日后使用，将颗粒重悬在2毫升含有10%（v/v）甘油的0.1M CaCl2溶液中。这个解决方案需要冰冷。将等分细胞悬浮液放入冰冷的1.5 mL EP管（每管160µl）。立即在干冰/乙醇浴中冷冻感受态细胞。将试管转移到-70°C的冷冻柜中。\n\n质粒DNA转化感受态细胞\n\n将50µl感受态细胞转移到2个1.5 ml EP管中。将1µl（100 pg）的pUC19质粒DNA添加到其中一个 EP管，并使第二个 EP管不含DNA（阴性对照）。轻轻混合（避免形成气泡）。在冰上孵育30分钟.注：体积为10µL的DNA不超过50 ng\n将 EP管 在42°C下准确孵育45 s。注：热冲击是一个关键步骤。不要超过温度或培养时间。这有利于感受态细胞吸收外来DNA\n立即将 EP管 转移到冰上快速冷却2-3分钟。\n\n细胞回收：选择性培养基，回收质粒，PCR鉴定\n\n加入950µL SOC培养基，在37°C下培养管1小时，使细菌恢复并表达质粒中编码的抗生素抗性标记。\n1.5 mL EP管 在990µL SOC中稀释10µL细胞悬浮液（1/100稀释），或者，在900µL的SOC中稀释100µL细胞悬浮液（1/10稀释）。将100µl稀释液和阴性对照品涂抹到==氨苄青霉素选择性平板== 上37°C培养过夜（12-16小时）。阴性对照中不应生长菌落。注：通常，将100µL的1/100和1/10稀释液电泳，每个平板将产生足够数量的菌落形成单位（cfu）。理想情况下，这个数字应该在30-300cfu之间，这样就有足够的菌落，但彼此分离。然而，cfu的数量将取决于转化效率（见数据分析和结果部分）。\n计数转化获得的cfu/板\n\n电泳鉴定 转化细菌是否具有pUC19质粒\n\n无菌环将单个菌落接种到装有3毫升LB肉汤的试管中。37°C，210rpm摇床振荡生长过夜（16-20小时）。\n第二天，根据说明书进行质粒纯化 #plasmidDNA\n用限制性内切酶HindIII在37°C下酶解1µg纯化的pUC19 1小时。注：任何切割pUC19多克隆位点的酶都可以用于此步骤。\nDNA凝胶电泳：20μlDNA ladder，1μg酶解和1μg未酶解的质粒，95V，1h\n紫外灯\n\n\n数据分析\n\ndilution1/100 34cfu\ndilution1/10 246cfu 电泳之前\n\\[transformation\\ efficiency (TE)=\\frac{colony\\ forming\\  units (cfu)}{the \\ amount(in\\  μg)of\\  plasmid \\ DNA} / dilution(稀释)\\]\n首先将cfu除以µg 质粒DNA，在本例中为100pg=0.0001µg。然后将结果除以稀释系数。在本例中，使用1/10的稀释液，并将100µL/1 ml溶液进行电泳（稀释度：1/10×100µL/1000µL=0.01）。\n\\[TE =\\frac{246cfu}{0.0001μg} /0.01\\ dilution =2.46 ×10^8cfu/μg\\]\n对从转化细胞中回收的质粒DNA的酶解分析，对比DNA Marker，表明，该质粒具有pUC19DNA的预期大小（2686bp）。",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "使用氯化钙转化大肠杆菌细胞"
     ]
@@ -221,6 +241,7 @@
     "section": "",
     "text": "受体大肠杆菌DH5α\n0.1mM \\(CaCl_2\\)\nLB 液体培养基(10 g casein enzymic hydrolysate, 5 g yeast extract and 5 g sodium chloride in 1000 mL of H2O) 固体培养基\n氨苄青霉素\n1X TAE buffer (40 mM Tris Base, 20 mM Acetic Acid and 1mM EDTA)\nSuper Optimal broth with Catabolite repression (SOC): (2% (w/v) tryptone, 0.5% (w/v) yeast extract, 10 mM NaCl, 2.5 mM KCl, 10 mM MgCl2, 10 mM MgSO4, and 20 mM glucose)\nPlasmid pUC19 DNA (100 pg/ µl)\n\n\n\n\n分光光度计 离心机 加热机 紫外线光源",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "使用氯化钙转化大肠杆菌细胞"
     ]
@@ -232,6 +253,7 @@
     "section": "",
     "text": "==除非另有说明，否则本方案中的所有步骤都需要使用无菌技术在冰上或4°C温度下进行==\n\n感受态细胞的制备：\n\n70%乙醇台面消毒\n从大肠杆菌DH5α的冷冻库（在LB中过夜培养的20%甘油中冷冻）中，带菌环在LB琼脂板上划线分离细菌。在37°C下培养过夜（16-20小时）\n第二天，70%乙醇台面消毒\n无菌接种环将单个菌落接种到试管中的3 mL LB肉汤中。37°C，210rpm摇床振荡生长过夜（16-20小时）。\n测量过夜培养物的OD600。将过夜培养物接种在1升烧瓶中的100 mL LB肉汤至OD600＝0.01。37°C，210 rpm摇床培养。每15-20分钟在分光光度计中监测一次OD600，直到培养物达到OD600=0.35（约3小时）~~注：为了使转化有效，细菌细胞需要处于指数生长中期。最大细胞数需要为\\(10^8\\)个细胞/mL，对于大多数大肠杆菌菌株来说，这相当于OD600=0.4。分光光度计的使用允许测量OD600，这允许确定细胞处于适当的生长阶段。如果该方案将用于其他菌株，则有必要进行校准，以确定特定OD600值下菌落形成单位的数量，从而确定这种相关性。\n将50毫升培养物转移到2个冰冷的聚丙烯大瓶中，瓶子放回冰上20分钟冷却\n4°C，2700g，离心10分钟来回收细胞。\n弃去上清液。将聚丙烯大瓶倒置在吸水纸上，沥干最后的介质痕迹。\n悬浮沉淀复合物到30mL CaCl2-MgCl2（80mM MgCl2，20mM CaCl2）冰冷溶液中。首先加入5 mL溶液，小心旋转，直到颗粒完全溶解，然后加入剩余的25 mL溶液。==禁止震荡器==\nRepeat 前两步\n如果感受态细胞要直接转化，则通过小心地旋转试管，将每个细菌颗粒重悬于2 mL CaCl2（0.1 M）冰冷溶液中。如果颗粒不能用这种方法重新悬浮，则通过上下轻轻移液进行重新悬浮（避免气泡形成）。也可以将感受态细胞冻存以备日后使用，将颗粒重悬在2毫升含有10%（v/v）甘油的0.1M CaCl2溶液中。这个解决方案需要冰冷。将等分细胞悬浮液放入冰冷的1.5 mL EP管（每管160µl）。立即在干冰/乙醇浴中冷冻感受态细胞。将试管转移到-70°C的冷冻柜中。\n\n质粒DNA转化感受态细胞\n\n将50µl感受态细胞转移到2个1.5 ml EP管中。将1µl（100 pg）的pUC19质粒DNA添加到其中一个 EP管，并使第二个 EP管不含DNA（阴性对照）。轻轻混合（避免形成气泡）。在冰上孵育30分钟.注：体积为10µL的DNA不超过50 ng\n将 EP管 在42°C下准确孵育45 s。注：热冲击是一个关键步骤。不要超过温度或培养时间。这有利于感受态细胞吸收外来DNA\n立即将 EP管 转移到冰上快速冷却2-3分钟。\n\n细胞回收：选择性培养基，回收质粒，PCR鉴定\n\n加入950µL SOC培养基，在37°C下培养管1小时，使细菌恢复并表达质粒中编码的抗生素抗性标记。\n1.5 mL EP管 在990µL SOC中稀释10µL细胞悬浮液（1/100稀释），或者，在900µL的SOC中稀释100µL细胞悬浮液（1/10稀释）。将100µl稀释液和阴性对照品涂抹到==氨苄青霉素选择性平板== 上37°C培养过夜（12-16小时）。阴性对照中不应生长菌落。注：通常，将100µL的1/100和1/10稀释液电泳，每个平板将产生足够数量的菌落形成单位（cfu）。理想情况下，这个数字应该在30-300cfu之间，这样就有足够的菌落，但彼此分离。然而，cfu的数量将取决于转化效率（见数据分析和结果部分）。\n计数转化获得的cfu/板\n\n电泳鉴定 转化细菌是否具有pUC19质粒\n\n无菌环将单个菌落接种到装有3毫升LB肉汤的试管中。37°C，210rpm摇床振荡生长过夜（16-20小时）。\n第二天，根据说明书进行质粒纯化 #plasmidDNA\n用限制性内切酶HindIII在37°C下酶解1µg纯化的pUC19 1小时。注：任何切割pUC19多克隆位点的酶都可以用于此步骤。\nDNA凝胶电泳：20μlDNA ladder，1μg酶解和1μg未酶解的质粒，95V，1h\n紫外灯\n\n\n数据分析\n\ndilution1/100 34cfu\ndilution1/10 246cfu 电泳之前\n\\[transformation\\ efficiency (TE)=\\frac{colony\\ forming\\  units (cfu)}{the \\ amount(in\\  μg)of\\  plasmid \\ DNA} / dilution(稀释)\\]\n首先将cfu除以µg 质粒DNA，在本例中为100pg=0.0001µg。然后将结果除以稀释系数。在本例中，使用1/10的稀释液，并将100µL/1 ml溶液进行电泳（稀释度：1/10×100µL/1000µL=0.01）。\n\\[TE =\\frac{246cfu}{0.0001μg} /0.01\\ dilution =2.46 ×10^8cfu/μg\\]\n对从转化细胞中回收的质粒DNA的酶解分析，对比DNA Marker，表明，该质粒具有pUC19DNA的预期大小（2686bp）。",
     "crumbs": [
+      "实验流程",
       "nucleic acid",
       "使用氯化钙转化大肠杆菌细胞"
     ]
