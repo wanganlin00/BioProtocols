@@ -67,39 +67,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,102 +106,10 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./PCR.html">nucleic acid</a></li><li class="breadcrumb-item"><a href="./plasmidDNA_purification_digestion_identification.html">质粒DNA纯化、酶切与鉴定</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">cell</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./PBMCsIsolationFreezing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PBMC分离和冻存</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">protein</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./WB+Co-IP.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">WB&amp;Co-IP</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ELISA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">酶联免疫吸附测定ELISA</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">nucleic acid</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./PCR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PCR基因扩增</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./real-time_ReverseTranscription-PCR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">实时逆转录荧光定量PCR</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./plasmidDNA_purification_digestion_identification.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">质粒DNA纯化、酶切与鉴定</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./TransformationCaCl2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">使用氯化钙转化大肠杆菌细胞</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -239,91 +118,21 @@ window.Quarto = {
 
 
 
-<section id="质粒dna纯化酶切与鉴定" class="level1">
-<h1>质粒DNA纯化、酶切与鉴定</h1>
-<p>#plasmidDNA #DNA</p>
-<section id="试剂和仪器" class="level2">
-<h2 class="anchored" data-anchor-id="试剂和仪器">试剂和仪器</h2>
-<section id="试剂" class="level3">
-<h3 class="anchored" data-anchor-id="试剂">试剂</h3>
-<ol type="1">
-<li>纯化
-<ul>
-<li>Solution1 GET</li>
-<li>Solution2 NaOH，SDS 新鲜配制</li>
-<li>Solution3 高盐溶液 4℃保存</li>
-<li>TE 缓冲液</li>
-<li>LB 培养基 琼脂粉Agar</li>
-<li>含质粒的大肠杆菌DH5α</li>
-</ul></li>
-<li>酶切与鉴定
-<ul>
-<li>EcoR Ⅰ，BamH Ⅰ，通用缓冲液</li>
-<li>10× TBE缓冲液</li>
-<li>6×loading buffer</li>
-<li>菲啶溴红染色液： EB（溴化乙锭）</li>
-<li>Gel-Red荧光染剂 核酸染料</li>
-<li>DNA Marker</li>
-</ul></li>
-</ol>
+<section id="基因敲除" class="level1">
+<h1>基因敲除</h1>
+<p>通过基因组编辑技术等手段，将目标基因的DNA序列从细胞或生物体中彻底删除或失活，阻断其转录和翻译过程，使目标基因完全失去功能，同时还可获得与基因敲低不同的表型。常见的基因敲除技术包括<strong>CRISPR/Cas9系统</strong>、转录激活样效应核酸酶（TALEN）技术、锌指核酸酶（Zinc finger nuclease）技术等。基因敲除技术通常能够取得更明显的表型，对于探究基因作用、疾病机制、药物靶点等方面具有更高的研究效度。</p>
+<section id="基因敲除载体" class="level3">
+<h3 class="anchored" data-anchor-id="基因敲除载体"><strong>基因敲除载体：</strong></h3>
+<p>（1）CRISPR/Cas9载体：包含Cas9核酸酶和sgRNA靶向序列，通过精确定位靶向基因DNA序列并引入双链断裂点，从而实现靶向基因的突变和敲除；</p>
+<p>（2）转录激活样效应核酸酶（TALENs）载体：与CRISPR/Cas9类似，包含特异性核酸酶和nuclease binding domain，通过切割靶向基因DNA序列实现敲除和编辑；</p>
+<p>（3）锌指核酸酶（ZFNs）载体：包含具有特异性的锌指结构域和核酸酶，通过切割靶向基因DNA序列实现敲除和编辑。</p>
 </section>
-<section id="仪器" class="level3">
-<h3 class="anchored" data-anchor-id="仪器">仪器</h3>
-<p>恒温箱，电泳仪，离心机，紫外灯，凝胶成像仪</p>
-</section>
-</section>
-<section id="实验操作" class="level2">
-<h2 class="anchored" data-anchor-id="实验操作">实验操作</h2>
-<ol type="1">
-<li><p>培养细菌：将单菌落大肠杆菌接种在LB液体培养基，加入适当的<strong>抗生素</strong>，37℃培养12-18h</p></li>
-<li><p><strong>纯化质粒DNA</strong>：分离细菌染色体、蛋白质、细菌胞膜、细菌核糖体</p>
-<ol type="1">
-<li>收集细菌：1.5ml EP管，离心，弃去上清液</li>
-<li>去除RNA：GET 缓冲液，RNaseA，混匀，室温10min</li>
-<li>溶菌：Solution Ⅱ，颠倒混匀至清亮，冰上5min，==避免震荡==</li>
-<li>沉淀细菌染色体蛋白质：预冷Solution Ⅲ，颠倒混匀，冰上15min</li>
-<li>获取粗提质粒：离心，上清液转移入另一个干净的EP 管</li>
-<li>沉淀质粒：等体积异丙醇，颠倒混匀，室温5min，离心，弃去上清液</li>
-<li>去除杂蛋白： <span class="math inline">\(\ce{ ddH2O}\)</span>溶解沉淀，<span class="math inline">\(\frac{1}{2}\)</span>体积<span class="math inline">\(NH_4Ac\)</span>，颠倒混匀冰浴5min，离心，上清液转移入另一个干净的EP 管</li>
-<li>沉淀质粒DNA：2倍体积无水乙醇，-20℃10min，离心，弃去上清液，吸水纸吸干</li>
-<li>去除EP 管中的盐：70%乙醇，颠倒，离心，弃去上清液，吸水纸吸干</li>
-<li>温箱干燥</li>
-<li>保存待用：-20℃保存或30μL TE缓冲液或<span class="math inline">\(ddH_2O\)</span>溶解</li>
-</ol></li>
-<li><p>酶切</p>
-<ul>
-<li>标准酶切反应体系（20μL）：
-<ul>
-<li>单酶切：
-<ol type="1">
-<li>质粒DNA X μL</li>
-<li>配套的10 × 缓冲液 2μL</li>
-<li><span class="math inline">\(ddH_2O\)</span> 20-（X+3）</li>
-<li>内切酶 2U（1μL）</li>
-</ol></li>
-<li>双酶切：
-<ol type="1">
-<li>质粒DNA X μL</li>
-<li>通用 10 × 缓冲液 2μL</li>
-<li><span class="math inline">\(ddH_2O\)</span> 20-（X+4）</li>
-<li>内切酶1 2U（1μL）</li>
-<li>内切酶2 2U（1μL）</li>
-</ol></li>
-</ul></li>
-</ul>
-<ol type="1">
-<li>20μL TE缓冲液或<span class="math inline">\(ddH_2O\)</span>溶解质粒DNA，==浓度？==</li>
-<li>EP 管编号，冰上进行，按上述依次加样，混匀</li>
-<li>恒温37℃，酶解2~3h</li>
-<li>DNA电泳或-20℃保存</li>
-</ol></li>
-<li><p>电泳鉴定</p>
-<ol type="1">
-<li>琼脂糖凝胶</li>
-<li>上样：6×loading buffer 含Gel-Red ==上样量？==</li>
-<li>观察：254nm紫外灯 ，DNA红色荧光。305nm紫外灯，EB染色条带。</li>
-</ol></li>
-</ol>
+<section id="基因敲除载体的构建方法" class="level3">
+<h3 class="anchored" data-anchor-id="基因敲除载体的构建方法"><strong>基因敲除载体的构建方法：</strong></h3>
+<p>（1）设计基因敲除的靶点以及合成序列，选择CRISPR/Cas9等酶切工具对目标基因进行精确编辑，实现敲除；</p>
+<p>（2）将编辑过的靶点序列插入到特定的载体中；</p>
+<p>（3）转化编制好的敲除载体至大肠杆菌中，进行筛选鉴定，验证敲除效果；</p>
+<p>（4）最终通过病毒载体、电穿孔等方法将敲除载体导入到目标细胞中。</p>
 
 
 </section>
