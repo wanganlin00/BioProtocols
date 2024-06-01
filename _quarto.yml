@@ -44,9 +44,9 @@ website:
             - TransformationCaCl2.md
        
        
-    # - title: "Table"
+    # - title: "xxx"
     #   contents: 
-    #     - Table.qmd
+    #     - xxx.qmd
        
 
 format:
