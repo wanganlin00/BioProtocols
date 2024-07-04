@@ -1,4 +1,4 @@
-# WB&Co-IP
+# WB和Co-IP
 
 #protein
 
